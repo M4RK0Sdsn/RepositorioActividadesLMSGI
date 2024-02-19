@@ -1,0 +1,37 @@
+h1{
+    color: blue;
+    text-transform: capitalize;
+    border: 3px;
+    border: solid;
+    
+}
+p.pesp{
+    width: 500px;
+    background-color: yellow;
+    text-align: justify;
+}
+p.tnr{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid blue;
+}
+#especial{
+letter-spacing: 3px;    
+word-spacing: 8px;
+text-indent: 10px;
+border-top: 3px dashed red;
+border-right: 5px solid green;
+border-bottom: 7px double blueviolet;
+border-left:  9px dotted yellow;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R.21c344a8ec4b437d3d2074ed99556472?rik=sDBezrGaF8A4YQ&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3.h3esp{
+    width: 30%;
+    text-align: right;
+    
+}

@@ -1,0 +1,56 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/1614405.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: blueviolet;
+    font-style: oblique;
+    text-decoration: underline;
+   
+
+}
+.parpadear {
+    animation: parpadeo 1s infinite;
+  }
+  
+  @keyframes parpadeo {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+h2{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    color: rgb(226, 4, 4));
+    font-style: oblique;
+    text-decoration: underline;
+}
+ul.icono{
+    list-style-image: url(https://cdn-icons-png.flaticon.com/128/1040/1040230.png);
+    list-style-position: inside;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+ul.cuadrado{
+    list-style-type: square;
+}
+ol.romano{
+    list-style-type: lower-roman;
+}
