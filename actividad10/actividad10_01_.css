@@ -1,0 +1,34 @@
+.centrado{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-image: url(https://www.todofondos.net/wp-content/uploads/3840x2160-4k-Fondo-de-Pantalla-Negro-2048x1152.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div{
+    color: white;
+    font-size: xx-large;
+}
+
+.static{
+    position: static;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.absoluto{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.relativo{
+    position: relative;
+}
+

@@ -1,0 +1,25 @@
+.centrado{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-image: url(https://png.pngtree.com/back_origin_pic/04/08/14/4fd161475a43b9e0a396bb169bd1bb80.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inline{
+    display: inline;
+}
+
+.block{
+    display: block;
+}
+
+.inlineblock{
+    display: inline-block;
+}
+
+.desaparecer{
+    display: none;
+}
