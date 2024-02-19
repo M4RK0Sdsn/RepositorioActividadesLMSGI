@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videojuego SYSTEM "actividad12_02.dtd" [
+
+]>
+<videojuego id="b1">
+    <identificador> 123 </identificador>
+    <nombre> Black Ops 3 </nombre>
+    <fecha_de_creacion> 2015 </fecha_de_creacion>
+    <nota> 10 </nota>
+<programadores>
+    <programador id ="p1">
+        <nombre> Aaron </nombre>
+        <apellidos> Gutierrez Gomez </apellidos>
+        <DNI> 56783495P </DNI>
+        <fecha_de_nacimiento> 12/5/98 </fecha_de_nacimiento>
+        <direccion> 
+            <tipo_de_via> Calle </tipo_de_via>
+            <nombre_de_via> Libertad </nombre_de_via>
+            <codigo_postal> 54879 </codigo_postal>
+            <pais> Rusia </pais>
+        </direccion>
+    </programador>
+
+    <programador id ="p2">
+        <nombre> jose </nombre>
+        <apellidos> Reverte Guzman </apellidos>
+        <DNI> 69754125Y </DNI>
+        <fecha_de_nacimiento> 5/04/05 </fecha_de_nacimiento>
+        <direccion> 
+            <tipo_de_via> rua </tipo_de_via>
+            <nombre_de_via> Portugal </nombre_de_via>
+            <codigo_postal> 78415 </codigo_postal>
+            <pais> New York </pais>
+        </direccion>
+    </programador>
+</programadores>
+
+    <compañia id ="p3"> 
+    <nombre> Treyacrh </nombre>
+    <NIF> 81487634Z </NIF>
+    <direccion> 
+            <tipo_de_via> Avenida </tipo_de_via>
+            <nombre_de_via> Carlos III </nombre_de_via>
+            <codigo_postal> 29785 </codigo_postal>
+            <pais> España </pais>
+        </direccion>
+    </compañia>
+
+
+<codigo_html_videojuego>
+    <![CDATA[ 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Ops 3</title>
+</head>
+<body>
+    <h1 style="text-align: center;"> BIENVENIDO</h1>
+    <h2 style="text-align: center; color: red;"> Black Ops 3</h2>
+    <img src="https://th.bing.com/th/id/R.c104c40536551b83cc925e05904aab17?rik=TBH6sdsRiQiEKw&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2f2016-call-of-duty-black-ops-3.jpg&ehk=%2f3Ji9rvAK1UhCyWD9s9Om40kBF9t72YUtb9AOqovuH4%3d&risl=1&pid=ImgRaw&r=0" alt="Imagen Logo BO3">
+</body>
+</html>
+    ]]>
+</codigo_html_videojuego>
+</videojuego>
