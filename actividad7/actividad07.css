@@ -1,0 +1,33 @@
+
+
+h1 {
+    text-align: center;
+}
+#h2AzulCentrado {
+    text-align: center;
+    color: blue;
+    font-size: xx-large;
+}
+.fondogris {
+    background-color: #f0f0f0;
+}
+.blanco {
+    color: white;
+}
+#h4Verde {
+    color: lawngreen;
+}
+.fondorojo {
+    background-color: red;
+}
+.azul {
+    color: blue;
+}
+header {
+    background-color: black;
+    color: yellow;
+}
+footer {
+    background-color: darkblue;
+    color: white;
+}
