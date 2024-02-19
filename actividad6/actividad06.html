@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">FORMULARIO PIZZERIA MARKOS</h1>
+    <form action="procesarPeticion.jsp" method="get">
+        <fieldset>
+            <legend style="text-align: center;"><u><b>DISEÑA TU PEDIDO A DOMICILIO</b></u></legend>
+            <label for="nombre"><u>Nombre</u></label>
+            <input type="text" name="Nombre" id="nombre" required placeholder="Inserte su nombre">
+            <br>
+            <br>
+            <label for="password"><u>Contraseña</u></label>
+            <input type="password" name="contraseña" id="password" placeholder="Introduzca su contraseña" required>
+            <br>
+            <br>
+            <label for="direccion"><u>Domicilio</u></label>
+            <textarea name="Domicilio" id="direccion" cols="30" rows="2" required
+                placeholder="Introduzca la direccion de su domicilio"></textarea>
+            <br>
+            <br>
+            <label for="telefono"><u>telefono</u></label>
+            <input type="tel" name="telefono" id="telefono" required placeholder="Introduzca su numero de telefono">
+            <br>
+            <br>
+            <label for="correo"><u>Correo electronico</u></label>
+            <input type="email" name="correo electronico" id="correo" placeholder="Introduzca su correo electronico">
+            <br>
+            <br>
+            <label for="edad"><u>Edad</u></label>
+            <input type="number" name="edad" id="edad" max="100" min="18" step="2" placeholder="Introduzca su edad">
+            <br>
+            <br>
+            <label for="tamaño"><u>Tamaño</u></label>
+            <br>
+            <input type="radio" name="tamaño" id="tamaño" value="G">Grande <br>
+            <input type="radio" name="tamaño" id="tamaño" value="M">Mediana <br>
+            <input type="radio" name="tamaño" id="tamaño" value="P">Pequeña <br>
+            <br>
+            <label for="masa"><u>Masa</u></label>
+            <br>
+            <input type="radio" name="masa" id="masa" value="G">Gruesa <br>
+            <input type="radio" name="masa" id="masa" value="N">Normal <br>
+            <input type="radio" name="masa" id="masa" value="F">Fina <br>
+            <br>
+            <label for="Ingredientes"><u>Ingredientes</u></label>
+            <br>
+            <input type="checkbox" name="ingredientes" id="Ingredientes" value="P">Pepperoni <br>
+            <input type="checkbox" name="ingredientes" id="Ingredientes" value="JV">Judias verdes <br>
+            <input type="checkbox" name="ingredientes" id="Ingredientes" value="J">Jamón <br>
+            <input type="checkbox" name="ingredientes" id="Ingredientes" value="Alc">Alcaparras <br>
+            <input type="checkbox" name="ingredientes" id="Ingredientes" value="Ace">Aceitunas <br>
+            <input type="checkbox" name="ingredientes" id="Ingredientes" value="C">Cebolla <br>
+            <input type="checkbox" name="ingredientes" id="Ingredientes" value="S">Salchicha <br>
+            <input type="checkbox" name="ingredientes" id="Ingredientes" value="Pi">Piña <br>
+            <br>
+            <label for="salsa"><u>Salsa</u></label>
+            <br>
+            <input type="radio" name="salsa" id="salsa" value="T">Tomate <br>
+            <input type="radio" name="salsa" id="salsa" value="B">Barbacoa <br>
+            <input type="radio" name="salsa" id="salsa" value="P">Pesto <br>
+            <input type="radio" name="salsa" id="salsa" value="Sin">Sin salsa <br>
+            <br>
+            <label for="Adicional"><u>Informacion adicional</u></label>
+            <br>
+            <textarea style="resize: none;" name="Adicional" id="Adicional" cols="50" rows="3"
+                placeholder="Introduzca en caso de ser necesario informacion adicional sobre el pedido ya sea por una alergia, domicilio de dificil visibilidad..."></textarea>
+            <br>
+            <br>
+            <label for="pago"><u>Metodo de pago</u></label>
+            <br>
+            <input type="radio" name="pago" id="pago" value="E">Efectivo <br>
+            <input type="radio" name="pago" id="pago" value="T">Tarjeta de credito<br>
+            <input type="radio" name="pago" id="pago" value="P">paypal <br>
+            <br>
+            <br>
+            <a target="_blank"
+                href="file:///C:/Users/UpgradeHub/Desktop/LMSGI/WsLMSGIMarcos/EJERCICIOS/terminosDeUsoActividad06.html">Terminos
+                de uso</a>
+            <br>
+            <br>
+            <input type="checkbox" name="terminos" id="terminos" value="SI">He leido y acepto los terminos de uso <br>
+            <br>
+            <input type="submit" value="Enviar pedido">
+            <input type="reset" value="Reiniciar pedido">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
