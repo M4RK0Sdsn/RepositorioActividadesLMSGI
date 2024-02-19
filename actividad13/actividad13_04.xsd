@@ -1,0 +1,55 @@
+<?xml version = "1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="empresa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"/>
+                <xs:element name="NIF" type="xs:string"/>
+                <xs:element name="española" type="xs:boolean"/>
+                <xs:element name="capital_social">
+                    <xs:complexType>
+                        <xs:choice>
+                            <xs:element name="euros" type="xs:double"/>
+                            <xs:element name="dolares" type="xs:double"/>
+                            <xs:element name="yenes" type="xs:double"/>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="direccionEmpresa" minOccurs="1" maxOccurs="2">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tipoVia" type="xs:string"/>
+                            <xs:element name="NombreVia" type="xs:string"/>
+                            <xs:element name="CodigoPostal" type="xs:integer"/>
+                            <xs:element name="Pais" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="empleados" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="empleado" type="xs:integer"/>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="apellido" type="xs:string" minOccurs="2" maxOccurs="unbounded"/>
+                            <xs:element name="DNI" type="xs:string"/>
+                            <xs:element name="extranjero" type="xs:boolean"/>
+                            <xs:element name="FechaDeNacimiento" type="xs:integer"/>
+                            <xs:element name="salario" type="xs:integer"/>                         
+                            <xs:element name="estaCasado" type="xs:boolean" minOccurs="0"/>
+                            <xs:element name="direccionEmpleado" minOccurs="1" maxOccurs="2">
+                                <xs:complexType>
+                                    <xs:all>
+                                        <xs:element name="direccion" type="xs:string"/>  
+                                        <xs:element name="pais" type="xs:string"/>                                 
+                                    </xs:all>
+                                </xs:complexType>
+                            </xs:element>
+                            
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT empresa (nombre,NIF,española,capital_social,direccion_empresa,empleados+)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT NIF (#PCDATA)>
+<!ELEMENT española (#PCDATA)>
+<!ELEMENT capital_social (euros,dolares,yenes)>
+
+<!ELEMENT euros (#PCDATA)>
+<!ELEMENT dolares (#PCDATA)>
+<!ELEMENT yenes (#PCDATA)>
+
+<!ELEMENT direccion_empresa (tipoVia,NombreVia,CodigoPostal,Pais)>
+
+<!ELEMENT tipoVia (#PCDATA)>
+<!ELEMENT NombreVia (#PCDATA)>
+<!ELEMENT CodigoPostal (#PCDATA)>
+<!ELEMENT Pais (#PCDATA)>
+
+<!ELEMENT empleados (empleado,nombre,apellido,DNI,extranjero,FechaDeNacimiento,salario,estaCasado,direccionEmpleado)>
+
+<!ELEMENT empleado (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT extranjero (#PCDATA)>
+<!ELEMENT FechaDeNacimiento (#PCDATA)>
+<!ELEMENT salario (#PCDATA)>
+<!ELEMENT estaCasado (#PCDATA)>
+<!ELEMENT direccionEmpleado (direccion,pais)>
+
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT Pais (#PCDATA)>
