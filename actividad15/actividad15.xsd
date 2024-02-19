@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="ciudad">
+        <complexType>
+            <sequence>
+                <element name="nombre_ciudad">
+                    <simpleType>
+                        <restriction base="string">
+                            <pattern value="(^[A-Z]{1})[a-z]"></pattern>
+                        </restriction>
+                    </simpleType>
+                </element>
+
+                <element name="poblacion">
+                    <simpleType>
+                        <restriction base="string">
+                            <pattern value="\d{100,100000}"></pattern>
+                        </restriction>
+                    </simpleType>
+                </element>
+
+                <element name="alcalde">
+                    <complexType>
+                        <sequence>
+                            <element name="nombre">
+                                <simpleType>
+                                    <restriction base="string">
+                                        <pattern value="(^[A-Z]{1})[a-z]{10}"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+
+                            <element name="apellidos">
+                                <simpleType>
+                                    <restriction base="string">
+                                        <pattern value="(^[A-Z]{1})[a-z]{15}\s(^[A-Z]{1})[a-z]{15}"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+
+                            <element name="telefono">
+                                <simpleType>
+                                    <restriction base="integer">
+                                        <pattern value="\+34\d{9}"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+
+                            <element name="tarjeta_de_credito"></element>
+                            <element name="correo_electronico">
+                                <simpleType>
+                                    <restriction base="string">
+                                        <pattern value="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,5}"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+
+                        </sequence>
+                            <attribute name="edad">
+                                <simpleType>
+                                    <restriction base="integer">
+                                        <pattern value="\d{18,100}"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </attribute>
+                    </complexType>
+                </element>
+
+                <element name="funcionarios" minOccurs="1">
+                    <complexType>
+                        <sequence>
+                            <element name="nombre_y_apellidos">
+                                <simpleType>
+                                    <restriction base="string">
+                                        <pattern value="(^[A-Z][a-z]\s(^[A-Z][a-z])){1,50}"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+
+                            <element name="codigo_postal">
+                                <simpleType>
+                                    <restriction base="integer">
+                                        <pattern value="\d{5,5}"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+
+                            <element name="fecha_de_nacimiento">
+                                <simpleType>
+                                    <restriction base="integer">
+                                        <pattern value="\d{1,31}(\\)\d{1,12}(\\)\d{1900,2024}"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+
+                            <element name="contraseña">
+                                <simpleType>
+                                    <restriction base="string">
+                                        <pattern value="((^[A-Z])((\d\d){1,2000})(% | $ | E | @ | !)){10,2050}"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+
+                            <element name="numero_cuenta_bancaria">
+                                <simpleType>
+                                    <restriction base="string">
+                                        <pattern value="(\ES\s(\d{4,4})\s(\d{4,4})\s(\d{4,4})){12,12}"></pattern>
+                                    </restriction>
+                                </simpleType>
+
+                            </element>
+
+                        </sequence>
+
+                            <attribute name="id">
+                                <simpleType>
+                                    <restriction base="string">
+                                        <pattern value="(.){10}"></pattern>
+                                    </restriction>
+                                </simpleType>
+                            </attribute>
+
+                    </complexType>
+
+                </element> 
+
+            </sequence>
+
+            <attribute name="codigo_de_identificador">
+                <simpleType>
+                    <restriction base="string">
+                        <pattern value="\D{2}\-\d{2,5}"></pattern>
+                    </restriction>
+                </simpleType>
+            </attribute>
+
+        </complexType>
+    </element>
+</schema>
