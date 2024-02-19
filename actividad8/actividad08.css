@@ -1,0 +1,46 @@
+
+body {
+    background-image: url(https://images4.alphacoders.com/607/thumb-1920-607866.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   background-position: flex;
+}
+header {
+    color: rgb(235, 252, 0);
+    text-align: center;
+}
+.px10 {
+size: 10px;
+}
+h2 {
+    text-align: center;
+    color: magenta;}
+.centro {
+    text-align: center;
+}
+
+section {
+    color: fuchsia;
+}
+div {
+    text-align: center;
+}
+.porcentaje60 img  {
+    width: 60%;
+}
+.ancho500px {
+    width: 500px;
+}
+.rojo {
+    color: red;
+}
+.em2 {
+    size: 2em;
+}
+.emfont {
+    font-size: 5em;
+}
+.pxfont {
+    font-size: 30px;
+}
