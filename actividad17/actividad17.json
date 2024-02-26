@@ -1,0 +1,78 @@
+{"biblioteca":
+    {
+        "nombre":"biblioteca nacional",
+        "seccion":[
+            {
+                "Categoria":"Aventura",
+                "libros":[
+                    {
+                        "Titulo":"El silencio de los corderos",
+                        "Autor":"Mi padre",
+                        "Resumen":"Muy largo y divertido",
+                        "Editorial":{
+                            "Nombre":"si",
+                            "Ciudad":"Madrid"
+                        }
+                    },
+                    {
+                        "Titulo":"Harry popotter",
+                        "Autor":"Mi madre",
+                        "Resumen":"Muy corto y aburrido",
+                        "Editorial":{
+                            "Nombre":"no",
+                            "Ciudad":"Barcelona"
+                        }
+                        
+                    }
+                ]
+            },
+                {
+                    "Categoria":"Terror",
+                    "Libro":[
+                        {
+                            "Titulo":"IT",
+                            "Autor":"Mi tio",
+                            "Resumen":"Muy largo y aterrador",
+                            "Editorial":{
+                                "Nombre":"maybe",
+                                "Ciudad":"Murcia"
+                            }
+                        },
+                        {
+                            "Titulo":"Cementerio de animales",
+                            "Autor":"Mi tia",
+                            "Resumen":"Muy largo y aburrido",
+                            "Editorial":{
+                                "Nombre":"seguro",
+                                "Ciudad":"Valencia"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Categoria":"Ciencia Ficcion",
+                    "Libro":[
+                        {
+                            "Titulo":"Mision imposible",
+                            "Autor":"Mi abuelo",
+                            "Resumen":"Muy divertido y entretenido",
+                            "Editorial":{
+                                "Nombre":"casi",
+                                "Ciudad":"Asturias"
+                            }
+                        },
+                        {
+                            "Titulo":"Predator",
+                            "Autor":"Mi sobrino",
+                            "Resumen":"Muy corto e intenso",
+                            "Editorial":{
+                                "Nombre":"tal vez",
+                                "Ciudad":"Madrid"
+                            }
+                        }
+                    ]
+                }
+        ]
+       
+    }
+}
