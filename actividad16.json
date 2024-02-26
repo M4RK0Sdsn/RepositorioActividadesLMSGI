@@ -1,0 +1,46 @@
+{"videojuego":
+    {
+        "identificador":123,
+        "nombre":"Black ops",
+        "fecha_de_creacion":2015,
+        "nota":10,
+        "programadores":[
+            {
+                "nombre":"Aaron",
+                "apellidos":"Gutierrez Gomez",
+                "DNI":"57384952H",
+                "fecha_de_nacimiento":"12/5/98",
+                "direccion":{
+                    "tipo_de_via":"Avenida",
+                    "nombre_de_via":"Via Lactea",
+                    "codigo_postal":24879,
+                    "pais":"España"
+                }
+            },
+
+            {
+                "nombre":"Jorge",
+                "apellidos":"Marinas Perez",
+                "DNI":"54127820P",
+                "fecha_de_nacimiento":"4/12/04",
+                "direccion":{
+                    "tipo_de_via":"Calle",
+                    "nombre_de_via":"Libertad",
+                    "codigo_postal":28936,
+                    "pais":"España"
+                }
+            }
+        ],
+
+        "compañia":{
+            "nombre":"Treyarch",
+            "NIF":"84567415K",
+            "direccion":{
+                "tipo_de_via":"Calle",
+                "nombre_de_via":"Palomo",
+                "codigo_postal":45789,
+                "pais":"España"
+            }
+        }
+}
+}
